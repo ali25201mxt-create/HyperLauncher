@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <!-- App name part -->
-    <string name="app_name">HyperX Launcher (Minecraft: Java Edition for Android)</string>
+    <string name="app_name">BoxL3 صندوق العاب٣ (Minecraft: Java Edition for Android)</string>
     <string name="app_short_name">HyperX Launcher</string>
 
 
@@ -25,7 +25,7 @@
     <string name="installer_search_hint">Search projects</string>
 
     <!-- Error messages -->
-    <string name="error_fatal">Hyper Launcher has unexpectedly crashed</string>
+    <string name="error_fatal">Box3 has unexpectedly crashed</string>
     <string name="error_no_version">No version!</string>
     <string name="error_show_more">Show more</string>
     <string name="error_show_less">Show less</string>
@@ -104,7 +104,7 @@
     <!-- MainActivity: strings -->
     <string name="mcn_exit_title">Application/Game exited with code %d, check latestlog.txt for more details.</string>
     <string name="mcn_abort_title">Application/Game aborted, check latestlog.txt for more information</string>
-    <string name="mcn_exit_confirm">Are you sure want to force close?</string>
+    <string name="mcn_exit_confirm">Are you sure want to force ME TO ClOSE MY BOXL3?</string>
     <string name="mcn_check_fail_vulkan_support">Zink (Vulkan) renderer is not supported on this device!</string>
 
     <!-- MainActivity: Control buttons -->
@@ -178,7 +178,7 @@
     <string name="mcl_disable_gestures_subtitle">Disables gestures, such as hold to break block, and tap to place a block.</string>
     <string name="mcl_disable_swap_hand">Disable double tap to swap hands</string>
     <string name="mcl_disable_swap_hand_subtitle">Disables double tapping on the hotbar item to swap it in the second hand.</string>
-    <string name="mcl_setting_title_mousespeed">Mouse Speed</string>
+    <string name="mcl_setting_title_mousespeed">Mouse FAST B##</string>
     <string name="mcl_setting_subtitle_mousespeed">Changes the speed of the virtual mouse.</string>
     <string name="customctrl_passthru">Mouse pass-thru</string>
     <string name="customctrl_swipeable">Swipeable</string>
@@ -197,7 +197,7 @@
     <string name="multirt_progress_caching">Caching...</string>
     <string name="multirt_config_setdefault">Set default</string>
     <string name="multirt_config_setdefault_already">Default</string>
-    <string name="multirt_config_removeerror_last">You must have at least one Java Runtime installed.</string>
+    <string name="multirt_config_removeerror_last">You must have at least one Java Runtime installed BITC#.</string>
     <string name="multirt_nocompatiblert">Can\'t find any compatible Java Runtime. This version requires Java %d or newer.</string>
     <string name="multirt_nojava8rt">Can\'t find Java 8. In order to use this option, you need to install Java 8.</string>
     <string name="multirt_delete_runtime">Delete runtime</string>
@@ -219,7 +219,7 @@
     <string name="preference_sustained_performance_title">Enable sustained performance mode</string>
     <string name="preference_sustained_performance_description">Limit thermal throttling by limiting peak performance.</string>
     <string name="preference_force_vsync_title">Force enable VSync</string>
-    <string name="preference_force_vsync_description">Limit thermal throttling by limiting peak performance.</string>
+    <string name="preference_force_vsync_description">Limit thermal throttling by limiting jakson performance.</string>
     <string name="preference_use_angle_title">Use ANGLE</string>
     <string name="preference_use_angle_description">Allows using ANGLE instead of the system driver for LTW. Can fix graphical issues with mods on some GPUs</string>
     <string name="main_select_instance_directory">Select Instance Directory</string>
