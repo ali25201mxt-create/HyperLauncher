@@ -523,5 +523,10 @@
     <string name="mcl_setting_graphics_backend_opengl">OpenGL</string>
     <string name="mcl_setting_graphics_backend_vulkan">Vulkan</string>
     <string name="preference_physical_mouse_title">Enable physical mouse</string>
-    <string name="preference_physical_mouse_description">Enables support for physical mouse input (requires Android 8.0+).</string>
+    <string name="preference_physical_mouse_description">Enables support for physical mouse input (requires Android 8.0+).</string>  
+  <string 
+
+name="login_password_hint">Password (Optional)</string>
+    <string name="login_api_url_hint">Auth API URL (Optional)</string>
+
 </resources>
