@@ -1,0 +1,48 @@
+name: Android CI
+
+on:
+  push:
+  workflow_dispatch:
+  pull_request:
+    types: [labeled]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    env:
+      UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.UPLOAD_KEYSTORE_PASSWORD }}
+      MOJOPUB_KEYSTORE_PASSWORD: ${{ secrets.MOJOPUB_KEYSTORE_PASSWORD }}
+      CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.14.3"
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Create out directory
+        run: mkdir out
+
+      - name: Build Debug .apk
+        run: |
+          # أمر عام بيبني موديول التطبيق الأساسي أوتوماتيك مهما كان اسمه
+          ./gradlew assembleDebug --no-daemon
+          
+          # أمر ذكي بيلقط ملف الـ APK من أي فولدر ويرميه بره
+          find . -name "*debug.apk" -exec mv {} out/app-debug-full.apk \;
+
+      - name: Upload Debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: HyperLauncher-Debug
+          path: out/app-debug-full.apk
+          
