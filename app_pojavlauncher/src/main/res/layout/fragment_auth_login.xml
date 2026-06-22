@@ -34,7 +34,7 @@
         android:layout_width="0dp"
         android:layout_height="@dimen/_37sdp"
         android:layout_marginHorizontal="@dimen/_25sdp"
-        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_35sdp"
         android:imeOptions="flagNoExtractUi"
         android:inputType="textEmailAddress"
         android:textSize="@dimen/_16ssp"
@@ -47,8 +47,7 @@
         android:id="@+id/text_password_hint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password"
-        android:layout_marginTop="@dimen/padding_heavy"
+        android:text="Password (Optional)"
         app:layout_constraintBottom_toTopOf="@+id/login_edit_password"
         app:layout_constraintStart_toStartOf="@+id/login_edit_password" />
 
@@ -70,8 +69,7 @@
         android:id="@+id/text_api_hint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Auth API URL"
-        android:layout_marginTop="@dimen/padding_heavy"
+        android:text="Auth API URL (Optional)"
         app:layout_constraintBottom_toTopOf="@+id/login_edit_api_url"
         app:layout_constraintStart_toStartOf="@+id/login_edit_api_url" />
 
