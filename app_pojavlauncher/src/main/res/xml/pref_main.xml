@@ -45,13 +45,31 @@
             android:icon="@drawable/ic_px_alt_sliders"
             />
 
-
         <Preference
             android:key="experimental_screen_setting"
             android:title="@string/preference_experimental_title"
             android:summary="@string/preference_experimental_description"
             android:fragment="net.kdt.pojavlaunch.prefs.screens.LauncherPreferenceExperimentalFragment"
             android:icon="@drawable/ic_px_experiment"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="أدوات الصيانة الذكية وتسريع اللعبة"
+        >
+
+        <Preference
+            android:key="delete_cache"
+            android:title="تنظيف الذاكرة المؤقتة (Clear Cache)"
+            android:summary="مسح ملفات الكاش الزائدة لتسريع الفريمات وتقليل التقطيع"
+            android:icon="@drawable/ic_px_alt_sliders"
+            />
+
+        <Preference
+            android:key="reset_assets"
+            android:title="إصلاح كراش اللعبة (Exit Code 1)"
+            android:summary="إعادة تعيين الملفات المعطوبة لحل الكراشات بدون مسح العوالم"
+            android:icon="@drawable/ic_px_experiment"
+            />
     </PreferenceCategory>
 
     <SwitchPreference
@@ -66,9 +84,5 @@
         android:key="notification_permission_request"
         android:icon="@drawable/ic_px_bell"
         />
-
-
-
-
 
 </PreferenceScreen>
