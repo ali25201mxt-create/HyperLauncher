@@ -1,4 +1,4 @@
-<H1 align="center">Hyper Launcher</H1>
+<H1 align="center">BOXL3 Launcher</H1>
 
 
 <p align="center">
